@@ -11,6 +11,7 @@
   * They propose a fashion-oriented multimodal deep learning based model, Bimodal Correlative Deep Autoencoder (BCDA), connected with regression to implement the task of mapping visual features to FSS (?)
 
 **How**
+
 *Building the fashion senmatic space*
     + Keywords: Kobayashi proposed 180 keywords in 16 aesthetic categories and defined their coordinate values in the image-scale space (Kobayashi 1995)
     + Fashion styles aesthetic words:
