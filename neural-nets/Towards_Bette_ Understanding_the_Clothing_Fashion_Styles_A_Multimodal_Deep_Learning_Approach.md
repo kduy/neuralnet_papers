@@ -37,7 +37,7 @@
        * For annotation of fashion styles: They provide the FSS space for the annotators, who are well trained with the annotation method. For each image:
          - Choose style section in FFS 
          - Determine a specific coordinate for the image according to the distribution of fashion style words
-       * For coordinates in the FSS
+     + For coordinates in the FSS
          - warm-cool and soft-hard coordinates values [-1,1] and he granularity of each dimension is 0.001
          - using the average results of annotators for each image.
  
