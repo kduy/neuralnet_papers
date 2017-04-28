@@ -22,6 +22,7 @@
       + Remove words which are not often used to describe clothing (such as: happy, sad, ...) -> 527 aesthetic words representing fashion styles
       
     + To determine the coordinates of these keywords, they calculate the senmantic distances between keywords and asthetic words using WordNet::Similarity (Pedersen, Patwardhan, and Michelizzi 2004). For an word to be coordinated, they choose 3 keywords with the shortest distances.
+       
     
 *Fashion-Oriented Multimodal Deep Learning Based BCDA (?)*
    
