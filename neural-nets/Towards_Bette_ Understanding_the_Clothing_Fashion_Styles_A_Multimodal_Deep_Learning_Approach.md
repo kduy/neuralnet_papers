@@ -41,7 +41,7 @@
          - warm-cool and soft-hard coordinates values [-1,1] and he granularity of each dimension is 0.001
          - using the average results of annotators for each image.
  
-# Source:
+# Source (?)
 
 
 # Related Work
