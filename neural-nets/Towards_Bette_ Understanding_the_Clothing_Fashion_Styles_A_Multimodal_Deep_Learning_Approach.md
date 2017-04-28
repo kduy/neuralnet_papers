@@ -11,14 +11,14 @@
   * They propose a fashion-oriented multimodal deep learning based model, Bimodal Correlative Deep Autoencoder (BCDA), connected with regression to implement the task of mapping visual features to FSS (?)
 
 **How**
- **Building the fashion senmatic space**
+*Building the fashion senmatic space*
     + Keywords: Kobayashi proposed 180 keywords in 16 aesthetic categories and defined their coordinate values in the image-scale space (Kobayashi 1995)
     + Fashion styles aesthetic words:
       + Obeserve all the comments from the colthing section of Amazon and split them by words
       + Retained only adjective words (Using WordNet (Miller 1995))
       + Remove words which are not often used to describe clothing (such as: happy, sad, ...) -> 527 aesthetic words representing fashion styles
     + To determine the coordinates of these keywords, they calculate the senmantic distances between keywords and asthetic words using WordNet::Similarity (Pedersen, Patwardhan, and Michelizzi 2004). For an word to be coordinated, they choose 3 keywords with the shortest distances, 
- **Fashion-Oriented Multimodal Deep Learning Based BCDA (?)**
+*Fashion-Oriented Multimodal Deep Learning Based BCDA (?)*
    
       
 # Dataset
