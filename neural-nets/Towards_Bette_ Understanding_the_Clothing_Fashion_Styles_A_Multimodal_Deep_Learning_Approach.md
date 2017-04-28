@@ -9,8 +9,8 @@
   * They construct a benchmark clothing fashion dataset containing 32133 full-body fashion show images from Vogue in the last 10 years. The collected dataset is labeled with complete visual features.
   * They build a universal Fashion Semantic Space (FSS) to describe clothing fashion styles quantitatively. It is a twodimensional image-scale space containing hundreds of words that people often use to describe clothing on shopping websites. Based on the FSS, we can not only do quantitative evaluation on fashion collocation, but also analyze the dynamic change of fashion trends intuitively.
   * They propose a fashion-oriented multimodal deep learning based model, Bimodal Correlative Deep Autoencoder (BCDA), connected with regression to implement the task of mapping visual features to FSS (?)
- 
- * How
+
+* How
    
    * Building the fashion senmatic space
     + Keywords: Kobayashi proposed 180 keywords in 16 aesthetic categories and defined their coordinate values in the image-scale space (Kobayashi 1995)
@@ -19,8 +19,7 @@
       + Retained only adjective words (Using WordNet (Miller 1995))
       + Remove words which are not often used to describe clothing (such as: happy, sad, ...) -> 527 aesthetic words representing fashion styles
     + To determine the coordinates of these keywords, they calculate the senmantic distances between keywords and asthetic words using WordNet::Similarity (Pedersen, Patwardhan, and Michelizzi 2004). For an word to be coordinated, they choose 3 keywords with the shortest distances, 
-    
-   * Fashion-Oriented Multimodal Deep Learning Based BCDA (?)
+  * Fashion-Oriented Multimodal Deep Learning Based BCDA (?)
    
       
 # Dataset
